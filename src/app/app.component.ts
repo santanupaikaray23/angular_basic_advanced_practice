@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular_basic_advanced_practice_umasir';
+  title = 'Santanu';
+
+  displayName(){
+    return this.title;
+  }
 }
+
