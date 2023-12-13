@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Customer } from '../../models/customer';
 
 
 @Component({
@@ -8,11 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SampleComponent implements OnInit {
 
+  customer: Customer = new Customer();
+
   constructor(){
 
   }
 
   ngOnInit(){
+    this.customer.id =1;
+    this.customer.name="Santanu";
+    this.customer.city="Bhubaneswar";
+    console.log(this.customer)
 
   }
 
