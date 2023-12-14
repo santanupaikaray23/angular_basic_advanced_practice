@@ -7,10 +7,20 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Santanu';
+  title = 'Angular Basic Advanced';
+  name = "Santanu Paikaray";
 
-  displayName(){
-    return this.title;
+  firstName = "Santanu"
+  lastName = "Paikaray"
+
+  message = "This is two way-data binding"
+
+  // displayName(){
+  //   return this.title;
+  // }
+  getName(){
+    console.log('Did you click the button?')
+    console.log(this.message)
   }
 }
 

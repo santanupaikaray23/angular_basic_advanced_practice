@@ -1,5 +1,12 @@
 <!-- <div>
   <h1>My First Angular App</h1>
 </div> -->
+<div class="container">
 <app-sample></app-sample>
 <app-display></app-display>
+<h1>{{title}}</h1>
+<h2>{{name}}</h2>
+<h1>{{firstName}} {{lastName}}</h1>
+<input type="text" class="form-control" [(ngModel)]="message"><br>
+<button (click)="getName()" class="btn btn-primary">GetName</button>
+</div>

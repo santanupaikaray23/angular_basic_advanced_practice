@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Student } from '../../models/Student'
 import { Customer } from '../../models/customer';
 
 
@@ -11,6 +12,7 @@ export class SampleComponent implements OnInit {
 
   customer: Customer = new Customer();
 
+  student: Student = new Student();
   constructor(){
 
   }

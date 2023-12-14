@@ -1,0 +1,82 @@
+->How to install angular cli?
+Ans : npm install -g @angular/cli
+
+->How to know angular have installed or not?
+Ans: ng --version
+
+->How to install angular app?
+Ans: ng new that app name
+
+->How to install angular10 with app.module.ts?
+Ans: ng new that app name --no-standalone
+
+angular
+-----------
+Angular is a development platform for building a single page application for mobile and desktop.
+
+Angular is a javascript framework and written using typescript.
+
+it uses typescript & HTML to build applications
+
+It comes with features like components, directives, forms, pipes, services,
+dependency injection etc.
+
+Angular Versions
+--------------------
+Early Version of angular was named as Angular2 later it was renamed to Angular.
+
+Angular developed and maintained by Google. It has a large community due to which
+can find help on web easily.
+
+Features of Angular
+-------------------
+1. Two-Way DataBinding - Changes made in the view (webpage) is automatically 
+updated in the component class and vice versa.
+
+2. Powerful routing support -  Angular Powerful routing engine loads the page 
+asynchronously on the same page (index.html) enabling us to create a single page application.
+
+3. Expressive HTML - Angular enables us to use programming constructus like
+if conditions, for loop etc ...to render how the html pages looks and work.
+
+4. Modular by Design - Angular follows moduler design. We can create angular 
+modules to better organize and manage our codebase.
+
+The Component
+--------------
+app.component.ts is the Component that is added to the project by the angular cli
+
+It consists of three main parts
+---------------------------------
+1. Import Statement
+2. Class Decorator
+3. Class
+
+-> How to generate component?
+And :  ng generate component componentname
+
+Import Statement
+---------------------
+Import Staement is used to import the libraries that are used in our component class.
+
+Class Decorator:
+------------------
+Our component is decorated with @Component decorator which is part of the @Angular/core modules
+
+Class 
+----------
+Component is a simple class we define it using the export keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
