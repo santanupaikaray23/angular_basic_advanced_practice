@@ -67,9 +67,11 @@ Class
 ----------
 Component is a simple class we define it using the export keyword.
 
+-> What is template expression, interpollution and one way DataBinding?
 
+Ans: {{example}}
 
-
+-> We are using [(ngModel)] for twoway data binding or binding html form.
 
 
 

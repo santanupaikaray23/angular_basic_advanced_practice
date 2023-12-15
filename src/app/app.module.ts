@@ -7,6 +7,7 @@ import { SampleComponent } from './components/sample/sample.component';
 import { DisplayComponent } from './components/display/display.component';
 import { HelloWorldComponent } from './components/hello-world/hello-world.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { DataBindingComponent } from './components/data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     SampleComponent,
     DisplayComponent,
     HelloWorldComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
