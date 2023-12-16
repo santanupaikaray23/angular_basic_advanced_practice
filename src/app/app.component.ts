@@ -10,7 +10,7 @@ import { Movie } from './models/movie.model';
 export class AppComponent {
   title = 'Angular Basic Advanced';
   name = "Santanu Paikaray";
-
+ 
   firstName = "Santanu"
   lastName = "Paikaray"
 
@@ -99,5 +99,6 @@ export class AppComponent {
     console.log('Did you click the button?')
     console.log(this.message)
   }
+  value: any
 }
 
