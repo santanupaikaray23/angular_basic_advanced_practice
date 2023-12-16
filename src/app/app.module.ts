@@ -8,6 +8,7 @@ import { DisplayComponent } from './components/display/display.component';
 import { HelloWorldComponent } from './components/hello-world/hello-world.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
+import { MovieComponent } from './components/movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DataBindingComponent } from './components/data-binding/data-binding.com
     DisplayComponent,
     HelloWorldComponent,
     WelcomeComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,

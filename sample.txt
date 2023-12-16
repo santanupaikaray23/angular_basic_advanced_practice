@@ -57,7 +57,7 @@ And :  ng generate component componentname
 
 Import Statement
 ---------------------
-Import Staement is used to import the libraries that are used in our component class.
+Import Statement is used to import the libraries that are used in our component class.
 
 Class Decorator:
 ------------------
@@ -72,6 +72,26 @@ Component is a simple class we define it using the export keyword.
 Ans: {{example}}
 
 -> We are using [(ngModel)] for twoway data binding or binding html form.
+
+Angular Directives:
+----------------------
+It helps us to manupalete the dom element.
+
+Types of directives
+----------------------
+1. Structural directives
+2. Attribute directives
+
+1.Structural directives
+---------------------------
+If * will be the begining that is structural directives.
+*ngFor, *ngSwitch, *ngIf
+
+2. Attribute directives
+---------------------------
+ngModel
+ngClass
+ngStyle
 
 
 

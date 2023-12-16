@@ -10,7 +10,7 @@ export class DataBindingComponent {
   firstName = "Santanu"
   lastName = "Paikaray"
   text = "Assign H1 innertext using property Binding"
-  isDisabled= false;
+  isDisabled: boolean = true;
   target="_blank"
   website="https://nodejs.org/"
   SiteName="Node js"
@@ -36,5 +36,8 @@ export class DataBindingComponent {
   showMessage(){
     console.log(this.message)
   }
-
+displaymsg(){
+  console.log('Hello World')
+}
+  
 }
