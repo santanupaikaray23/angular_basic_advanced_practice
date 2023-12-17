@@ -53,7 +53,9 @@ It consists of three main parts
 3. Class
 
 -> How to generate component?
-And :  ng generate component componentname
+Ans :  ng generate component componentname
+->How to create model?
+Ans : ng generate class models/movie --type=model
 
 Import Statement
 ---------------------
@@ -92,6 +94,8 @@ If * will be the begining that is structural directives.
 ngModel
 ngClass
 ngStyle
+
+
 
 
 

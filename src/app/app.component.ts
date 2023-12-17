@@ -10,11 +10,13 @@ import { Movie } from './models/movie.model';
 export class AppComponent {
   title = 'Angular Basic Advanced';
   name = "Santanu Paikaray";
+  
  
   firstName = "Santanu"
   lastName = "Paikaray"
 
   message = "This is two way-data binding"
+  
 
   movies:Movie[]=[
     {
@@ -95,10 +97,12 @@ export class AppComponent {
   },
 
  ]
+ 
   getName(){
     console.log('Did you click the button?')
     console.log(this.message)
   }
-  value: any
+value=3;
+show: any;
 }
 

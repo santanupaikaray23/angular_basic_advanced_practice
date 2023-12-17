@@ -10,6 +10,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { MovieComponent } from './components/movie/movie.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { MovieComponent } from './components/movie/movie.component';
     HelloWorldComponent,
     WelcomeComponent,
     DataBindingComponent,
-    MovieComponent
+    MovieComponent,
+  
+    
   ],
   imports: [
     BrowserModule,

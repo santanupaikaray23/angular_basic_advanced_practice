@@ -81,7 +81,7 @@
 
 </div> -->
 
-<div class="container">
+<!-- <div class="container">
   <h2>*ngSwitch</h2>
   <input type="text" [(ngModel)]="value">
 <div [ngSwitch]="value">
@@ -96,4 +96,45 @@
   </div>
   <div *ngSwitchDefault>This is Default</div>
 </div>
+</div> -->
+
+<!-- <div class="container">
+  <h2>*ngIf</h2>
+  <input type="checkbox" [(ngModel)]="show"> Show/Hide
+  
+  <div *ngIf="show">Display This Section </div> -->
+  <!-- <br><br>
+  <div class="container">
+  <input type="text" [(ngModel)]="show">
+  <div *ngIf="show">Display this Section</div>
+
+
+<div *ngIf="show; else display">
+  if DIV block
 </div>
+<ng-template #display>
+  This is else block
+  </ng-template>
+</div> -->
+
+<!-- <div class="container">
+  <h2>ngClass</h2>
+  <div [ngClass]="'red size'">
+    Red text with size 20px
+
+  </div>
+  <br><br>
+  <div [ngClass]="['red', 'size']">
+    Red text with size 20px
+
+  </div>
+  <br>
+  <div [ngClass]="{'red':false,'size':true}">
+    Red text with size 20px - Using Object Values
+
+  </div>
+</div> -->
+<div class="container">
+  <div appChangeColor>This is Div</div>
+</div>
+
