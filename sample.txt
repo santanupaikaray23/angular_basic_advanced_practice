@@ -95,6 +95,36 @@ ngModel
 ngClass
 ngStyle
 
+Forms:
+------------
+Which collect data from the Users is called Forms.
+
+Angular:
+-----------
+In Angular there are two types of forms
+Template Driven Forms
+Reactive Forms
+
+Template Driven Forms:
+-------------------------
+1. The form is setup using ngForm directives
+2. User input controls are set up using ngModel
+3. ngModel provides two-way data binding
+
+Advantages:
+------------
+1. Contains little code in component class
+2. Easier to setup
+
+
+Disadvantages
+---------------
+1. Difficult to add controls dynamically.
+2. Unit testing is challenges
+
+
+
+
 
 
 

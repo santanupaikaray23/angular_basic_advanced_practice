@@ -9,6 +9,9 @@ import { HelloWorldComponent } from './components/hello-world/hello-world.compon
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { MovieComponent } from './components/movie/movie.component';
+import { TemplateDrivenComponent } from './components/template-driven/template-driven.component';
+import { ReactiveComponent } from './components/reactive/reactive.component';
+import { PipeComponent } from './components/pipe/pipe.component';
 
 
 
@@ -21,6 +24,9 @@ import { MovieComponent } from './components/movie/movie.component';
     WelcomeComponent,
     DataBindingComponent,
     MovieComponent,
+    TemplateDrivenComponent,
+    ReactiveComponent,
+    PipeComponent,
   
     
   ],

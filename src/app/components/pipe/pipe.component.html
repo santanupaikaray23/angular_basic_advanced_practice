@@ -1,0 +1,14 @@
+
+<p>Unformatted Date: {{toDate | date}}</p>
+<!-- <p>{{toDate | date : 'medium'}}</p> -->
+<p>FullDate : {{toDate | date: 'fullDate' | uppercase}}</p>
+<p>Medium : {{toDate | date:'medium'}}</p>
+
+<div class="container">
+    <h2>Uppercase & Lowercase Pipes</h2>
+    <p>Unformatted : {{message}}</p>
+    <p>Unformatted : {{message | uppercase}}</p>
+    <p>Unformatted : {{message | lowercase}}</p>
+    <p>Slice  : {{message | slice : 0:1}}</p>
+
+</div>
