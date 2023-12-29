@@ -1,3 +1,4 @@
+complected video : 16
 ->How to install angular cli?
 Ans : npm install -g @angular/cli
 
@@ -122,8 +123,15 @@ Disadvantages
 1. Difficult to add controls dynamically.
 2. Unit testing is challenges
 
+Pipes:
+--------
+These are used to transform the data.
 
+we can pass arguments to pipe and chain pipes.
 
+create sustom pipes
+
+Inbuilt pipes- Currency pipe, Date pipe, Number Pipe, Percent Pipe, Slice pipe etc.
 
 
 
