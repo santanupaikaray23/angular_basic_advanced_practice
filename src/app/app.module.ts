@@ -12,6 +12,8 @@ import { MovieComponent } from './components/movie/movie.component';
 import { TemplateDrivenComponent } from './components/template-driven/template-driven.component';
 import { ReactiveComponent } from './components/reactive/reactive.component';
 import { PipeComponent } from './components/pipe/pipe.component';
+import { IndianCurrencyPipe } from './custom-pipes/indian-currency.pipe';
+import { CustomerNamePipe } from './custom-pipes/customer-name.pipe';
 
 
 
@@ -27,6 +29,9 @@ import { PipeComponent } from './components/pipe/pipe.component';
     TemplateDrivenComponent,
     ReactiveComponent,
     PipeComponent,
+    IndianCurrencyPipe,
+    CustomerNamePipe
+   
   
     
   ],

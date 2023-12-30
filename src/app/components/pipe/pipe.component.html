@@ -11,4 +11,17 @@
     <p>Unformatted : {{message | lowercase}}</p>
     <p>Slice  : {{message | slice : 0:1}}</p>
 
+</div> 
+<div class="container">
+    <h2>Currency Pipe</h2>
+    <p>Unformatted : {{salary | currency}}</p>
+    <p>Formatted : {{salary | currency: 'INR': true:'4.2-2'}}</p>
+</div>
+<div class="container">
+    <h2>Indian Currency Pipe : Custom Pipe</h2>
+    <p>Inbuild pipe without Params : {{salary | currency}}</p>
+    <p>Inbuild pipe without Params : {{salary | currency: 'INR': true:'4.2-2'}}</p>
+    <p>Custom pipe : {{salary | indianCurrency}}</p>
+    <p>Custom pipe : {{salary | indianCurrency}}</p>
+    <p>Custom pipe : {{customer | customerName}}</p>
 </div>
