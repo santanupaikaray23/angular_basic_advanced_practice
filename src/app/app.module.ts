@@ -15,6 +15,9 @@ import { PipeComponent } from './components/pipe/pipe.component';
 import { IndianCurrencyPipe } from './custom-pipes/indian-currency.pipe';
 import { CustomerNamePipe } from './custom-pipes/customer-name.pipe';
 import { EmployeeNamePipe } from './custom-pipes/employee-name.pipe';
+import { EmployeeComponent } from './components/employee/employee.component';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 
 
@@ -32,7 +35,10 @@ import { EmployeeNamePipe } from './custom-pipes/employee-name.pipe';
     PipeComponent,
     IndianCurrencyPipe,
     CustomerNamePipe,
-    EmployeeNamePipe
+    EmployeeNamePipe,
+    EmployeeComponent,
+    ParentComponent,
+    ChildComponent
    
   
     

@@ -1,0 +1,34 @@
+<div>
+    <h2>Employee Data</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    FirstName
+                </th>
+                <th>
+                    LastName
+                </th>
+                <th>
+                    Salary
+                </th>
+                <th>
+                    ZipCode
+                </th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employeeData">
+                <td>{{employee.id}}</td>
+                <td>{{employee.firstName}}</td>
+                <td>{{employee.lastName}}</td>
+                <td>{{employee.salary | currency}}</td>
+                <td>{{employee.zipcode}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
