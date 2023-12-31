@@ -14,6 +14,7 @@ import { ReactiveComponent } from './components/reactive/reactive.component';
 import { PipeComponent } from './components/pipe/pipe.component';
 import { IndianCurrencyPipe } from './custom-pipes/indian-currency.pipe';
 import { CustomerNamePipe } from './custom-pipes/customer-name.pipe';
+import { EmployeeNamePipe } from './custom-pipes/employee-name.pipe';
 
 
 
@@ -30,7 +31,8 @@ import { CustomerNamePipe } from './custom-pipes/customer-name.pipe';
     ReactiveComponent,
     PipeComponent,
     IndianCurrencyPipe,
-    CustomerNamePipe
+    CustomerNamePipe,
+    EmployeeNamePipe
    
   
     
