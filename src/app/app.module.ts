@@ -18,6 +18,9 @@ import { EmployeeNamePipe } from './custom-pipes/employee-name.pipe';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
+import { StudentComponent } from './components/student/student.component';
+import { OrganisationComponent } from './components/organisation/organisation.component';
+import { EmployeeOneComponent } from './components/employee-one/employee-one.component';
 
 
 
@@ -38,7 +41,10 @@ import { ChildComponent } from './components/child/child.component';
     EmployeeNamePipe,
     EmployeeComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    StudentComponent,
+    OrganisationComponent,
+    EmployeeOneComponent
    
   
     

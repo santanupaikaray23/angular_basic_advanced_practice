@@ -1,4 +1,4 @@
-complected video : 17
+complected video : 19
 ->How to install angular cli?
 Ans : npm install -g @angular/cli
 
@@ -133,6 +133,10 @@ create sustom pipes
 
 Inbuilt pipes- Currency pipe, Date pipe, Number Pipe, Percent Pipe, Slice pipe etc.
 
+Parent child relationship
+-------------------------
+->Parent can talk with the child by using @input annotation.
+->Clild can talk with the parent by raising an event.
 
 
 

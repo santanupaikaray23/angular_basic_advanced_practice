@@ -8,6 +8,7 @@ import { Movie } from './models/movie.model';
 })
 
 export class AppComponent {
+  studentId: number = 1;
   title = 'Angular Basic Advanced';
   name = "Santanu Paikaray";
   
