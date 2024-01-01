@@ -21,6 +21,8 @@ import { ChildComponent } from './components/child/child.component';
 import { StudentComponent } from './components/student/student.component';
 import { OrganisationComponent } from './components/organisation/organisation.component';
 import { EmployeeOneComponent } from './components/employee-one/employee-one.component';
+import { ParentOneComponent } from './components/parent-one/parent-one.component';
+import { ChildOneComponent } from './components/child-one/child-one.component';
 
 
 
@@ -44,7 +46,9 @@ import { EmployeeOneComponent } from './components/employee-one/employee-one.com
     ChildComponent,
     StudentComponent,
     OrganisationComponent,
-    EmployeeOneComponent
+    EmployeeOneComponent,
+    ParentOneComponent,
+    ChildOneComponent
    
   
     

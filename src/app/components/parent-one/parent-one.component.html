@@ -1,0 +1,12 @@
+<div>
+    <h1>Welcome to parent Component</h1>
+    <p>
+        Current count is {{counter}}
+          <br>
+       
+    </p>
+    <app-child-one [count]="counter"
+    (countChanged)="countChangeHandler($event)">
+
+    </app-child-one>
+</div>

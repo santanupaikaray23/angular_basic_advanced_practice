@@ -1,4 +1,4 @@
-complected video : 19
+complected video : 20
 ->How to install angular cli?
 Ans : npm install -g @angular/cli
 
@@ -133,10 +133,39 @@ create sustom pipes
 
 Inbuilt pipes- Currency pipe, Date pipe, Number Pipe, Percent Pipe, Slice pipe etc.
 
-Parent child relationship
--------------------------
-->Parent can talk with the child by using @input annotation.
-->Clild can talk with the parent by raising an event.
+Component Communication
+------------------------
+1. Parent to Child - child will have @Input() data bound properties
+2. Child to Parent - 1. Parent listen to child event
+                     2. Parent Uses local variable to access the child
+                     3. Parent uses @viewchild to get reference to the child 
+                     component
+
+Parent listen to child event
+---------------------------------
+1. Child component exposes an event emitter property.
+2. This property is decoratored with @output() property
+3. When the child component needs to communicate with parent it raise an event
+4. The parent component listens to event and it reacts to it.
+
+EventEmitter
+--------------
+Event Emitter raises an event
+Event can be emitted by calling the emit() method
+
+@Output Decorator
+------------------
+To make the event accessible from parent component we most 
+decoratethe property with @output decorator
+
+parent uses local variable to access the child
+------------------------------------------------
+by creating template reference variable 
+<app-child-two #child></app-child-two>
+
+parent uses @viewchild to get reference to the child component
+-------------------------------------------------------------------
+
 
 
 
